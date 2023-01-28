@@ -32,7 +32,7 @@ export const deleteHotel=async(req,res,next)=>{
         next(err);
     }
 }
-//get
+//get hotel
 export const getHotel=async(req,res,next)=>{  
     try{
         const hotel=await Hotel.findById(req.params.id);
