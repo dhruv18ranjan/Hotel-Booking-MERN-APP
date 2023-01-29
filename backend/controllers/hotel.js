@@ -32,7 +32,7 @@ export const deleteHotel=async(req,res,next)=>{
         next(err);
     }
 }
-//get hotel
+//get 
 export const getHotel=async(req,res,next)=>{  
     try{
         const hotel=await Hotel.findById(req.params.id);
@@ -43,7 +43,7 @@ export const getHotel=async(req,res,next)=>{
     }
 }
 
-export const getAllHotel=async(req,res,next)=>{  
+export const getHotels=async(req,res,next)=>{  
     try{
         const hotels=await Hotel.find();
         res.status(200).json(hotels);
