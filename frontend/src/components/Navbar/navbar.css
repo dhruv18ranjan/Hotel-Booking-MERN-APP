@@ -25,3 +25,7 @@
     padding: 5px 10px;
     font-size: 14px;
 }
+.logoutContainer{
+    display: flex;
+    justify-content: center;
+}

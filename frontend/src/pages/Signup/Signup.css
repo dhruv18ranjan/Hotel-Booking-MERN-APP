@@ -1,30 +1,35 @@
-.login {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color:whitesmoke;
-    justify-content: center;
-  }
-  
-  .lContainer {
+
+.signup {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:whitesmoke;
+  overflow: hidden;
+}
+
+
+.scontainer {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     margin: 30px;
     padding: 30px;
-    border-radius: 15px;
     background-color: white;
+    border-radius: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  
-  .lInput{
+
+  .sInput{
     height: 30px;
     padding: 10px;
+    width: 300px;
+    outline: none;
     border: 2px solid rgb(228, 234, 235);
     background-color: rgb(252, 252, 252);
   }
-  
-  .lButton {
+
+  .sButton {
     border: none;
     padding: 10px 20px;
     background-color: #0071c2;
@@ -32,9 +37,4 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  .lButton:disabled{
-    background-color: #0071c28c;
-    cursor: not-allowed;
   }

@@ -4,6 +4,7 @@ import Home from "./pages/home/Home";
 import List from './pages/List/List';
 import Hotel from './pages/hotel/Hotel';
 import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route  path="/hotels" element={<List />} />
       <Route  path="/hotels/:id" element={<Hotel />} />
       <Route  path="/login" element={<Login />} />
+      <Route  path="/signup" element={<Signup />} />
     </Routes>
   </Router>
   );
